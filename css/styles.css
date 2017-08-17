@@ -1,9 +1,24 @@
 /* Styling for Disney Tourist Webpage */
 
+@media (min-width: 1200px) {
+    .container{
+        max-width: 1080px;
+    }
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
 h1 {
+  margin-top: 330px;
   font-family: 'Montez', cursive;
-  font-size: 90px;
+  font-size: 120px;
   text-align: center;
+  color: #2aac86;
+  text-shadow: 1px 1px #238c6c, 2px 2px #238c6c, 3px 3px #238c6c;
 }
 
 h3 {
@@ -12,17 +27,22 @@ h3 {
   text-align: center;
 }
 
-.navbar {
-  background-color: #ffdbf5;
-  padding: 20px;
+ body {
+  background-image: url(../img/disneyBG.jpg);
+    background-repeat: no-repeat;
+    background-position: top-left;
+    background-attachment: fixed;
 }
 
-li {
-  list-style-type: none;
+p {
   font-family:'Dosis', sans-serif;
-  letter-spacing: 0.2em;
+  text-align: center;
+  padding: 20px;
+  color: #BF367E;
 }
 
-.jumbotron {
-  margin-bottom: 0;
+.btn {
+  background-color: #2aac86;
+  box-shadow: 2px 2px #238c6c;
+  margin: 10px;
 }
