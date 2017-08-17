@@ -1,0 +1,19 @@
+/* Styling for Disney Tourist Webpage */
+
+h1 {
+  font-family: 'Montez', cursive;
+  font-size: 80px;
+  text-align: center;
+}
+
+h3 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+li {
+  list-style-type: none;
+  font-family:'Dosis', sans-serif;
+  letter-spacing: 0.2em;
+}
